@@ -1,20 +1,20 @@
 import React from 'react';
-import { Link } from '@reach/router';
+import { Link } from 'gatsby';
 
 const Home = () => (
   <nav>
     <Link to="/">Home</Link>
     <Link to="/app/dashboard">Dashboard</Link>
-    <Link to="/app/dasboard/settings">Settings</Link>
     <Link to="/app/account">Account</Link>
+    <Link to="/app/account/profile">Profile</Link>
   </nav>
 );
 
-const Settings = () => (
+const Account = () => (
   <>
-    <h3>Settings</h3>
-    <Home />
+    <h1>Account</h1>
+    <Home path="/app/account/" />
   </>
 );
 
-export default Settings;
+export default Account;
