@@ -20,6 +20,7 @@
     "prettier": "^1.19.1"
   },
   "dependencies": {
+    "@reach/router": "^1.2.1",
     "gatsby-plugin-create-client-paths": "^2.1.20",
     "gatsby-plugin-page-creator": "^2.1.36"
   }
